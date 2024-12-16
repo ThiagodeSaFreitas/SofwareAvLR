@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-shadow: #000 1px 1px;
+  font-family: Helvetica;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(imgs/backgoundLogin.webp);
+  background-size: cover;
+  height: 100vh;
+}
