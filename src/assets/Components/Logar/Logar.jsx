@@ -1,9 +1,9 @@
 import {FaUser, FaLock} from "react-icons/fa"
 import { useState } from "react"
-import "./Login.css"
+import "./Logar.css"
 
 
-const Login = () => {
+function Logar () {
 
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
@@ -14,14 +14,14 @@ const Login = () => {
         
     }
   return (
-    <div className='container'>
+    <div className="container-login">
         <form onSubmit={handleSubmmit}>
             <h1>Acesse o Sistema</h1>
-            <div className="input-field">
+            <div className="input-field-login">
             <input type="email" placeholder='E-mail' onChange={(e) => setUsername(e.target.value)} />
             <FaUser className="icon" />
             </div>
-            <div className="input-field">
+            <div className="input-field-login">
             <input type="password" placeholder='Senha' onChange={(e) => setPassword(e.target.value)} />
             <FaLock className="icon" />
             </div>
@@ -43,4 +43,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Logar
