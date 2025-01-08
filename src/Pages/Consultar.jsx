@@ -1,8 +1,15 @@
+import Banner from "../assets/Components/Banner/Banner"
+import Header from "../assets/Components/Header/Header"
+
+
+
 function Consultar() {
     return (
        <>
-       <h1>Consultar</h1>
-       <p>Subtitle</p>
+        <Header />
+        <Banner title="Consultar" image="nutriBanner.jpg"/>
+       
+       
        </> 
     )
 }

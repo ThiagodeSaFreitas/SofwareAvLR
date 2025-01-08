@@ -1,10 +1,14 @@
 .banner {
+    position: relative;
+    width: 100vw;
+    height: 356px;
     background-color: darkgray;
     background-position: center;
     background-size: cover;
-    height: 356px;
-    width:100%;
+    margin: 0;
 }
+
+
 
 .title-panel {
     background-color: white;
@@ -16,3 +20,14 @@
     max-width: 500px;
 
 }
+
+.title-panel h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }

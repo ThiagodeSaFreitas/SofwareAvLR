@@ -1,8 +1,14 @@
+import Banner from "../assets/Components/Banner/Banner"
+import Header from "../assets/Components/Header/Header"
+
+
+
 function Cadastro() {
     return (
        <>
-       <h1>Cadastro</h1>
-       <p>Subtitle</p>
+        <Header />
+       
+       <Banner title="Cadastrar" image="cadastrarBanner.jpg"/>
        </> 
     )
 }
